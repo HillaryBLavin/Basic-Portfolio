@@ -7,7 +7,7 @@ a {
 }
 
 body {
-    background: url('assets/images/brickwall/brickwall.png');
+    background: url('../images/brickwall/brickwall.png');
     font-size: 16px;
     line-height: 27px;
     position: relative;
@@ -79,7 +79,7 @@ h2 {
     color: #fff;
     text-shadow: 2px 1px #a1a1a1bd;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 35px;
     font-kerning: normal;
     letter-spacing: 2px;
 }
