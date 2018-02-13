@@ -1,10 +1,13 @@
 * {
         box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
 
 body {
-    font-size: 18px;
-    line-height: 34px;
+    font-size: 16px;
+    line-height: 27px;
     font-family: 'Quicksand', Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #2c2c2c
 }
@@ -27,4 +30,21 @@ body {
     border-bottom: 2px solid #ccc;
     position: fixed;
     width: 100%;
+}
+
+#logo {
+    border-radius: 15px 50px;
+    padding: 10px;
+    width: 250px;
+    height: 100px;
+    background: #10d0f1;
+    float: left;
+    overflow: auto;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 29px;
+    letter-spacing: 2px;
 }
