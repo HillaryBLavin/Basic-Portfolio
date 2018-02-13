@@ -1,6 +1,7 @@
 * {
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
@@ -8,7 +9,8 @@ a {
 body {
     font-size: 16px;
     line-height: 27px;
-    font-family: 'Quicksand', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;
+    font-family: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #2c2c2c
 }
 
@@ -19,6 +21,30 @@ body {
     clear: both;
 }
 
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom:0;
+}
+
+h1, h2, h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #2c2c2c;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 35px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 24px;
+}
 /*header*/
 
 #masthead {
@@ -35,16 +61,78 @@ body {
 #logo {
     border-radius: 15px 50px;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 250px;
     height: 100px;
     background: #10d0f1;
     float: left;
     overflow: auto;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One', sans-serif;
     text-align: center;
     line-height: 80px;
     color: #fff;
+    text-shadow: 2px 1px #a1a1a1bd;
     font-weight: 700;
     font-size: 29px;
     letter-spacing: 2px;
+}
+
+nav {
+    float: right;
+    margin-top: 49px;
+}
+
+nav a {
+    color: #3b3b3b;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #efefef;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+/* Main */
+
+#main-container {
+    padding-top: 150px;
+}
+
+/* .main-container {
+    float: right;
+} */
+
+.main-section {
+    background: #fff;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    max-width: 650px;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.auth-image {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* Sidebar */
+
+.sidebar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    float: right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
 }
