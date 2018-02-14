@@ -43,6 +43,11 @@ h1 {
     padding-bottom: 20px;
 }
 
+h4 {
+    font-size: 14px;
+    color: #fff;
+}
+
 h2, h3 {
     font-size: 24px;
 }
@@ -50,6 +55,7 @@ h2, h3 {
 h2 {
     text-align: center;
 }
+
 /* Header */
 
 #masthead {
@@ -190,17 +196,18 @@ footer {
     border: 0 none;
 }
 
-.work h3 {
-    border-bottom: 0;
+.work h4 {
+    border-radius: 15px 50px;
     background: #10d0f1;
     color: #fff;
     text-align: center;
     position: absolute;
     bottom: 20px;
+    right: 20px;
     padding: 15px;
-    width: 100%;
-    line-height: 30px;
-    margin-bottom: 0;
+    width: 40%;
+    height: 25%;
+    line-height: 16px;
     font-weight: 300;
 }
 
